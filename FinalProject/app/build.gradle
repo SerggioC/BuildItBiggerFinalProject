@@ -58,7 +58,9 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //noinspection GradleCompatible
     implementation 'com.android.support:appcompat-v7:27.1.1'
-    implementation 'com.google.android.gms:play-services-ads:15.0.1'
+
+    // only implement for free variant configuration
+    freeImplementation 'com.google.android.gms:play-services-ads:15.0.1'
     implementation 'com.google.code.findbugs:jsr305:3.0.2'
 
     // V2: Endpoints Framework v2 migration
@@ -74,6 +76,5 @@ dependencies {
 
     testImplementation 'junit:junit:4.12'
 
-//    implementation project(":SergioJokesLibrary")
     implementation project(":androidlibrary")
 }
