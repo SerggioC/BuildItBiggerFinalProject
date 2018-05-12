@@ -37,18 +37,5 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-//    public void tellJoke(View view) {
-//        //Intent intent = new Intent(this, com.sergiocruz.androidlibrary.JokeActivity.class);
-////
-////        Joker joker = new Joker();
-////        String joke = joker.getRandomJoke();
-////
-////
-//
-//
-////        intent.putExtra(JokeActivity.JOKE_KEY, joke);
-////        startActivity(intent);
-//
-//    }
 
 }
